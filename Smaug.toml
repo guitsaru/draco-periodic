@@ -1,0 +1,20 @@
+[package]
+name = "draco-periodic"
+authors = ["Matt Pruitt <matt@guitsaru.com>"]
+version = "0.2.0"
+homepage = "https://github.com/guitsaru/draco-periodic"
+repository = "http://github.com/guitsaru/draco-periodic"
+keywords = ["draco", "ECS"]
+
+# Optional:
+# documentation = "https://example.com"
+
+# Which files do you want to be automatically required from your package.
+requires = ["lib/draco/periodic.rb"]
+
+
+[package.installs]
+
+[dragonruby]
+version = "2.5"
+edition = "standard"

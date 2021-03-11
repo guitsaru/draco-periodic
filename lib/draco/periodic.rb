@@ -4,7 +4,7 @@ module Draco
   # Public: A library for the Draco ECS system that allows the definition of Systems
   # that run every _n_ ticks.
   module Periodic
-    VERSION = "0.1.0"
+    VERSION = "0.2.0"
 
     def self.included(mod)
       mod.extend(ClassMethods)
